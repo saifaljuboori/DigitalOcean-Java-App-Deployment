@@ -24,7 +24,7 @@ Create DigitalOcean server and deploy Java React Application to the server. The 
      cat id_rsa.pub
      ```
   9. Click on `Add SSH Key` button
-  10. Paste SSH key into `SSH Key content" box
+  10. Paste SSH key into `SSH Key content` box
   11. Give your SSH Key a name (my-droplet-vm)
   12. Click on `Add SSH Key` button
   13. Review summary of droplet being created and click on `Create Droplet` button
