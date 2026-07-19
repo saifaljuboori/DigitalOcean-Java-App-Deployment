@@ -16,3 +16,10 @@ Create DigitalOcean server and deploy Java React Application to the server. The 
   6. Choose CPU Options (Regular SSD)
   7. Select a Plan (1 vCPU - 512 MB RAM - 10 GB SSD - 500 GB Transfer)
   8. Authenticate by SSH Key
+     - generate ssh key on Mac:
+     ```
+     cd ~/.ssh
+     ssh-keygen -t rsa
+     cat id_rsa.pub
+     ```
+  
