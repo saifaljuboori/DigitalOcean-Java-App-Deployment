@@ -1,4 +1,4 @@
-# Java-React Example
+# DigitalOcean-Java-App-Deployment
 
 An example of how to use JS frontend to consume an endpoint written in Java.
 
