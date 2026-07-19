@@ -32,11 +32,22 @@ Create DigitalOcean server and deploy Java React Application to the server. The 
 ### Configure firewall
 We need to restrict access to the server (droplet) by allowing access through SSH only, so we need to add an inbound rule to restrict access to SSH port only.
 
-  1. From Netowrking sectino, choose Firewalls
+  1. From Netowrking section, choose Firewalls
   2. Click on `Create Firewall` button
-  3. In Inbound rules section, click on `Add inbound rule`
-  4. Select type of rule `SSH`
-  5. In `Sources`, remove `All IPv4` and `All IPv6` that were set by default, and restrict it to only your IP address. You can find your computer's IP adderss from [What Is My IP Address](https://whatismyipaddress.com)
+  3. Select type of rule `SSH`
+  4. In `Sources`, remove `All IPv4` and `All IPv6` that were set by default, and restrict it to only your IP address. You can find your computer's IP adderss from [What Is My IP Address](https://whatismyipaddress.com)
+  5. Click on `Add inbound rule` button
+  6. Give a name for your firewall
+  7. Apply the firewall you configured to your newly created droplet.
+
+## Connect to DigitalOcean Server
+
+  1. Copy the public IPv4 address of your droplet
+  2. Connect via SSH, via Terminal
+     ```
+     ssh root@<droplet-public-ipv4-address>
+
+
 
 
 
