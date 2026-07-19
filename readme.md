@@ -36,7 +36,7 @@ We need to restrict access to the server (droplet) by allowing access through SS
   2. Click on `Create Firewall` button
   3. In Inbound rules section, click on `Add inbound rule`
   4. Select type of rule `SSH`
-  5. In `Sources`, remove `All IPv4` and `All IPv6` that were set by default, and restrict it to only your IP address. You can find your computer's IP adderss from [What Is My IP Address] (https://whatismyipaddress.com)
+  5. In `Sources`, remove `All IPv4` and `All IPv6` that were set by default, and restrict it to only your IP address. You can find your computer's IP adderss from [What Is My IP Address](https://whatismyipaddress.com)
 
 
 
