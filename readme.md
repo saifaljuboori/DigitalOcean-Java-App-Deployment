@@ -2,23 +2,8 @@
 
 ## Description
 
-Create DigitalOcean server and deploy Java React Application to the server.
+Create DigitalOcean server and deploy Java React Application to the server. The technologies used into this project are DigitialOcean, Linux, Java, and Gradle.
 
-## Frontend technologies
+## Setup DigitalOcean server
 
-- [React](https://facebook.github.io/react/) - UI Library
-- [Redux](http://redux.js.org/) - State container
-
-## Additional information
-
-This project is a part of a [presentation](https://docs.google.com/presentation/d/1-yZhsM43cyWWDVn6EUtK_wc39FAv-19_jwsKXlTe2o8/edit?usp=sharing)
-
-Related projects:
-
-- [react-intro](https://github.com/mendlik/react-intro) - Introduction to react and redux.
-- [java-webpack-example](https://github.com/mendlik/java-webpack-example) - Advanced example showing how to use a module bundler in  a Java project.
-
-Tip: [How to enable LiveReload in IntelliJ](http://stackoverflow.com/a/35895848/2284884)
-
-<hr/>
-Original project can be found here: https://github.com/pmendelski/java-react-example 
+### Create Droplet
