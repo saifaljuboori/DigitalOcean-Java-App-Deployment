@@ -1,6 +1,8 @@
 # DigitalOcean-Java-App-Deployment
 
-An example of how to use JS frontend to consume an endpoint written in Java.
+## Description
+
+Create DigitalOcean server and deploy Java React Application to the server.
 
 ## Frontend technologies
 
