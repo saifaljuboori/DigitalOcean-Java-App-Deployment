@@ -66,7 +66,7 @@ We need to restrict access to the server (droplet) by allowing access through SS
 
 *on your droplet server:*
 ```
-    root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# java -jar /root/java-react-example.jar
+    java -jar /root/java-react-example.jar
 ```
 
   .   ____          _            __ _ _
