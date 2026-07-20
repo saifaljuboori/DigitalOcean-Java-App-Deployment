@@ -50,8 +50,8 @@ We need to restrict access to the server (droplet) by allowing access through SS
 
 ### Install Java on Droplet
     ```
-    root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# apt update
-    root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# apt install openjdk-17-jre-headless
+    apt update
+    apt install openjdk-17-jre-headless
     ```
 
 ### Deploy Java app on Droplet
