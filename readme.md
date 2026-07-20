@@ -56,13 +56,14 @@ We need to restrict access to the server (droplet) by allowing access through SS
 
 ### Deploy Java app on Droplet
 ```
-    # _via your local machine_
+    # *via your local machine*
     git clone https://gitlab.com/twn-devops-bootcamp/latest/05-cloud/java-react-example
     cd java-react-example
     gradle build
     cd build/libs/
     scp java-react-example.jar root@<droplet-public-ipv4-address>:/root
-    # via your droplet server, run your java app
+
+    # *via your droplet server, run your java app*
     root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# java -jar /root/java-react-example.jar
 ```
 
