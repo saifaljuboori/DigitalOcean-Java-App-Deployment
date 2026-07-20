@@ -49,13 +49,13 @@ We need to restrict access to the server (droplet) by allowing access through SS
   ```
 
 ### Install Java on Droplet
-    ```
+```
     apt update
     apt install openjdk-17-jre-headless
-    ```
+```
 
 ### Deploy Java app on Droplet
-    ```
+```
     # via your local machine
     git clone https://gitlab.com/twn-devops-bootcamp/latest/05-cloud/java-react-example
     cd java-react-example
@@ -64,5 +64,5 @@ We need to restrict access to the server (droplet) by allowing access through SS
     scp java-react-example.jar root@<droplet-public-ipv4-address>:/root
     # via your droplet server, run your java app
     root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# java -jar /root/java-react-example.jar
-    ```
+```
 
