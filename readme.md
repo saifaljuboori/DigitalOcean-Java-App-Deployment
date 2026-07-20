@@ -43,11 +43,26 @@ We need to restrict access to the server (droplet) by allowing access through SS
 ## Connect to DigitalOcean Server
 
   1. Copy the public IPv4 address of your droplet
-  2. Connect via SSH, via Terminal
+  2. Connect via SSH, via your local machine's terminal
      ```
      ssh root@<droplet-public-ipv4-address>
+     ```
 
+### Install Java on Droplet
+    ```
+    root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# apt update
+    root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# apt install openjdk-17-jre-headless
+    ```
 
-
-
+### Deploy Java app on Droplet
+    ```
+    # via your local machine
+    git clone https://gitlab.com/twn-devops-bootcamp/latest/05-cloud/java-react-example
+    cd java-react-example
+    gradle build
+    cd build/libs/
+    scp java-react-example.jar root@<droplet-public-ipv4-address>:/root
+    # via your droplet server, run your java app
+    root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# java -jar /root/java-react-example.jar
+    ```
 
