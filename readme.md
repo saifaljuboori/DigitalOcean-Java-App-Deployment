@@ -44,9 +44,9 @@ We need to restrict access to the server (droplet) by allowing access through SS
 
   1. Copy the public IPv4 address of your droplet
   2. Connect via SSH, via your local machine's terminal
-     ```
+  ```
      ssh root@<droplet-public-ipv4-address>
-     ```
+  ```
 
 ### Install Java on Droplet
     ```
