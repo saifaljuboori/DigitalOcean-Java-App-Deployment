@@ -56,7 +56,7 @@ We need to restrict access to the server (droplet) by allowing access through SS
 
 ### Deploy Java app on Droplet
 ```
-    # via your local machine
+    # _via your local machine_
     git clone https://gitlab.com/twn-devops-bootcamp/latest/05-cloud/java-react-example
     cd java-react-example
     gradle build
