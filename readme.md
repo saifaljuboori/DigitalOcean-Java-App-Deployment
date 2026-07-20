@@ -63,7 +63,8 @@ We need to restrict access to the server (droplet) by allowing access through SS
     cd build/libs/
     scp java-react-example.jar root@<droplet-public-ipv4-address>:/root
 
-    # *via your droplet server, run your java app*
+*via your droplet server, run your java app*
+```
     root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# java -jar /root/java-react-example.jar
 ```
 
