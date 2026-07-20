@@ -92,6 +92,6 @@ We need to restrict access to the server (droplet) by allowing access through SS
   5. Select `TCP` in Protocol
   6. Enter java app port `7071`
   7. Click on `Add inbound rule` button
-  8. Open browser and type http://<droplet-public-ipv4-address>:7071
+  8. Open browser and type `http://<droplet-public-ipv4-address>:7071`
 
 
