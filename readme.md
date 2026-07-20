@@ -69,3 +69,19 @@ We need to restrict access to the server (droplet) by allowing access through SS
     root@ubuntu-s-1vcpu-512mb-10gb-fra1:~# java -jar /root/java-react-example.jar
 ```
 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.5)
+
+2026-07-20T20:22:30.901Z  INFO 48381 --- [           main] com.coditorium.sandbox.Application       : Starting Application using Java 17.0.19 with PID 48381 (/root/java-react-example.jar started by root in /root)
+2026-07-20T20:22:30.914Z  INFO 48381 --- [           main] com.coditorium.sandbox.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-07-20T20:22:31.101Z  INFO 48381 --- [           main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-20T20:22:34.557Z  INFO 48381 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7071 (http)
+2026-07-20T20:22:34.607Z  INFO 48381 --- [           main] o.apache.catalina.cor
+
+
